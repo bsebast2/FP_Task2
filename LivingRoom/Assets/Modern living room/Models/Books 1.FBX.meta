@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 960e9eae3487ee74198433996f0abb09
+timeCreated: 1431345043
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: books1
+    100004: books2
+    100006: books3
+    100008: books4
+    100010: books5
+    100012: FPoint27
+    100014: FPoint30
+    100016: FPoint31
+    100018: FPoint32
+    100020: FPoint33
+    100022: FPoint39
+    100024: FPoint40
+    100026: FPoint41
+    100028: FPoint42
+    100030: FPoint43
+    100032: FPoint44
+    100034: FPoint45
+    100036: FPoint46
+    100038: VRayLight10
+    100040: VRayLight12
+    100042: VRayLight14
+    100044: VRayLight15
+    100046: VRayLight16
+    100048: VRayLight21
+    100050: VRayLight27
+    100052: VRayLight28
+    100054: VRayLight29
+    400000: //RootNode
+    400002: books1
+    400004: books2
+    400006: books3
+    400008: books4
+    400010: books5
+    400012: FPoint27
+    400014: FPoint30
+    400016: FPoint31
+    400018: FPoint32
+    400020: FPoint33
+    400022: FPoint39
+    400024: FPoint40
+    400026: FPoint41
+    400028: FPoint42
+    400030: FPoint43
+    400032: FPoint44
+    400034: FPoint45
+    400036: FPoint46
+    400038: VRayLight10
+    400040: VRayLight12
+    400042: VRayLight14
+    400044: VRayLight15
+    400046: VRayLight16
+    400048: VRayLight21
+    400050: VRayLight27
+    400052: VRayLight28
+    400054: VRayLight29
+    2300000: books1
+    2300002: books2
+    2300004: books3
+    2300006: books4
+    2300008: books5
+    3300000: books1
+    3300002: books2
+    3300004: books3
+    3300006: books4
+    3300008: books5
+    4300000: books3
+    4300002: books5
+    4300004: books4
+    4300006: books1
+    4300008: books2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

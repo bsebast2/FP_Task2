@@ -1,0 +1,119 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6048 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.100 seconds
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\System.dll (this message is harmless)
+[CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+ 
+(Filename:  Line: 46)
+
+Unity v5.2.0f3, Oculus Utilities v0.1.0, OVRPlugin v0.1.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Creating volume controller...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Releasing render texture that is set to be RenderTexture.active!
+ 
+(Filename:  Line: 510)
+
+RenderTexture warning: Destroying active render texture. Switching to main context.
+ 
+(Filename:  Line: 865)
+
+[VRDevice] Successfully created device oculus.
+[CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+ 
+(Filename:  Line: 46)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 1b78 -> priority: 1 
+  Thread -> id: 1f5c -> priority: 1 
+  Thread -> id: f4c -> priority: 1 
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6048 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.054 seconds
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+OVR Error:
+  OVRTime: 13295.671695
+  Time: 2015-09-25 17:25:49 [796:516:200]
+  Code: -1003 -- ovrError_Timeout
+  Description: Semaphore WaitForMultipleObjects
+
+ 
+(Filename:  Line: 46)
+
+Platform assembly: C:\ThiagoVR\LivingRoom\DemoTest_Data\Managed\System.dll (this message is harmless)
+[CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+ 
+(Filename:  Line: 46)
+
+Unity v5.2.0f3, Oculus Utilities v0.1.0, OVRPlugin v0.1.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Creating volume controller...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 1e80 -> priority: 1 
+  Thread -> id: 1db0 -> priority: 1 
+  Thread -> id: 724 -> priority: 1 
+[VRDevice] Successfully created device oculus.
+[CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+ 
+(Filename:  Line: 46)
+

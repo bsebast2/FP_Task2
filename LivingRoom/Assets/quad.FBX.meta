@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 0e1cb7355c94aa54fa0e29fc10bb4460
+timeCreated: 1443219545
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AeroQuad HKAMEL
+    100002: CirPattern1
+    100004: CirPattern1 1
+    100006: CirPattern1 2
+    100008: CirPattern1 3
+    100010: Fillet9
+    100012: Fillet9_MeshPart0
+    100014: Fillet9_MeshPart1
+    100016: Fillet9_MeshPart2
+    100018: Fillet9_MeshPart3
+    100020: Fillet9_MeshPart4
+    100022: Fillet9_MeshPart5
+    100024: Flex1
+    100026: Flex1 1
+    100028: Flex1 2
+    100030: Flex1 3
+    100032: Part1_3
+    100034: Part2_1
+    100036: Part2_2
+    100038: Part2_4
+    100040: Part2_5
+    100042: //RootNode
+    400000: AeroQuad HKAMEL
+    400002: CirPattern1
+    400004: CirPattern1 1
+    400006: CirPattern1 2
+    400008: CirPattern1 3
+    400010: Fillet9
+    400012: Fillet9_MeshPart0
+    400014: Fillet9_MeshPart1
+    400016: Fillet9_MeshPart2
+    400018: Fillet9_MeshPart3
+    400020: Fillet9_MeshPart4
+    400022: Fillet9_MeshPart5
+    400024: Flex1
+    400026: Flex1 1
+    400028: Flex1 2
+    400030: Flex1 3
+    400032: Part1_3
+    400034: Part2_1
+    400036: Part2_2
+    400038: Part2_4
+    400040: Part2_5
+    400042: //RootNode
+    2300000: CirPattern1
+    2300002: CirPattern1 1
+    2300004: CirPattern1 2
+    2300006: CirPattern1 3
+    2300008: Fillet9_MeshPart0
+    2300010: Fillet9_MeshPart1
+    2300012: Fillet9_MeshPart2
+    2300014: Fillet9_MeshPart3
+    2300016: Fillet9_MeshPart4
+    2300018: Fillet9_MeshPart5
+    2300020: Flex1
+    2300022: Flex1 1
+    2300024: Flex1 2
+    2300026: Flex1 3
+    3300000: CirPattern1
+    3300002: CirPattern1 1
+    3300004: CirPattern1 2
+    3300006: CirPattern1 3
+    3300008: Fillet9_MeshPart0
+    3300010: Fillet9_MeshPart1
+    3300012: Fillet9_MeshPart2
+    3300014: Fillet9_MeshPart3
+    3300016: Fillet9_MeshPart4
+    3300018: Fillet9_MeshPart5
+    3300020: Flex1
+    3300022: Flex1 1
+    3300024: Flex1 2
+    3300026: Flex1 3
+    4300000: Flex1
+    4300002: CirPattern1
+    4300004: Flex1
+    4300006: CirPattern1
+    4300008: Fillet9_MeshPart0
+    4300010: Fillet9_MeshPart1
+    4300012: Fillet9_MeshPart2
+    4300014: Fillet9_MeshPart3
+    4300016: Fillet9_MeshPart4
+    4300018: Fillet9_MeshPart5
+    4300020: Flex1
+    4300022: CirPattern1
+    4300024: Flex1
+    4300026: CirPattern1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
