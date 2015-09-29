@@ -41,7 +41,7 @@ public class Kinematics : MonoBehaviour {
 	void Start () 
 	{
 		moveSpeed = 1f;
-		rotSpeed = 180/3.1415f;
+		rotSpeed = 2f*180/3.1415f;
 		uav = GetComponent<CharacterController>();
 		Forward = transform.TransformDirection(Vector3.forward);
 		Side = transform.TransformDirection(Vector3.right);
@@ -92,12 +92,17 @@ public class Kinematics : MonoBehaviour {
 			//double.TryParse(text, out x);
 			//print(">> x=" + x.ToString());
 		}
-		uav.Move(moveSpeed*((float)x*Forward + (float)y*Side - (float)z*Up)*Time.deltaTime);
+		// For old quad
+		//uav.Move(moveSpeed*((float)x*Forward + (float)y*Side - (float)z*Up)*Time.deltaTime);
+
+		//For new quad
+		uav.Move(moveSpeed*((float)x*Forward - (float)y*Side + (float)z*Up)*Time.deltaTime);
+
 		//transform.Rotate (rotSpeed * (float)q*Time.deltaTime, (float)r*rotSpeed*Time.deltaTime, -rotSpeed*(float)p*Time.deltaTime, Space.Self);
 		//transform.localPosition = moveSpeed * ((float)x * Forward + (float)y * Side + ((float)z) * Up);
 
 		//transform.eulerAngles = new Vector3((float)q*rotSpeed,(float)r*rotSpeed,-(float)p*rotSpeed);
-		transform.eulerAngles = new Vector3((float)p*rotSpeed,-(float)r*rotSpeed,-(float)q*rotSpeed);
+		transform.eulerAngles = new Vector3(-(float)p*rotSpeed,-(float)r*rotSpeed,(float)q*rotSpeed);
 		//transform.Translate = new Vector3((float)x, (float)y, (float)z);
 		//transform.Translate((float)x, (float)y, (float)z);
 	}

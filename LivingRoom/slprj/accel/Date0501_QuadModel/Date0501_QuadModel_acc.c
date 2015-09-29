@@ -203,141 +203,140 @@ erv0ccpdoz + cb55qal4hd * h4fomgvj5n ; nuudevirgz = erv0ccpdoz /
 muDoubleScalarCos ( gmesnt5dc1 ) ; if ( nuudevirgz > 1.0 ) { nuudevirgz = 1.0
 ; } else { if ( nuudevirgz < - 1.0 ) { nuudevirgz = - 1.0 ; } } _rtB ->
 fjodtin3x5 = muDoubleScalarAsin ( nuudevirgz ) ; jq5l4n1lxp =
-muDoubleScalarSin ( jq5l4n1lxp / 10.0 ) ; if ( gmesnt5dc1 > _rtP -> P_33 ) {
-_rtB -> hok0j3hzyy [ 0 ] = _rtP -> P_33 ; } else if ( gmesnt5dc1 < _rtP ->
-P_34 ) { _rtB -> hok0j3hzyy [ 0 ] = _rtP -> P_34 ; } else { _rtB ->
-hok0j3hzyy [ 0 ] = gmesnt5dc1 ; } if ( _rtB -> fjodtin3x5 > _rtP -> P_33 ) {
-_rtB -> hok0j3hzyy [ 1 ] = _rtP -> P_33 ; } else if ( _rtB -> fjodtin3x5 <
-_rtP -> P_34 ) { _rtB -> hok0j3hzyy [ 1 ] = _rtP -> P_34 ; } else { _rtB ->
-hok0j3hzyy [ 1 ] = _rtB -> fjodtin3x5 ; } if ( jq5l4n1lxp > _rtP -> P_33 ) {
-_rtB -> hok0j3hzyy [ 2 ] = _rtP -> P_33 ; } else if ( jq5l4n1lxp < _rtP ->
-P_34 ) { _rtB -> hok0j3hzyy [ 2 ] = _rtP -> P_34 ; } else { _rtB ->
-hok0j3hzyy [ 2 ] = jq5l4n1lxp ; } } if ( ssIsSampleHit ( S , 1 , tid ) ) {
-ssCallAccelRunBlock ( S , 2 , 65 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 66 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 67 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 68 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 69 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 70 , SS_CALL_MDL_OUTPUTS ) ; } if (
-ssIsContinuousTask ( S , tid ) ) { fegfldezgg [ 0 ] = _rtX -> g1it3hbzj0 [ 0
-] ; fegfldezgg [ 1 ] = _rtX -> g1it3hbzj0 [ 1 ] ; fegfldezgg [ 2 ] = _rtX ->
-g1it3hbzj0 [ 2 ] ; _rtB -> jkjusfctvb [ 0 ] = _rtX -> g1it3hbzj0 [ 0 ] - _rtB
--> n0qqthcibl [ 0 ] ; _rtB -> jkjusfctvb [ 1 ] = _rtX -> g1it3hbzj0 [ 1 ] -
-_rtB -> n0qqthcibl [ 1 ] ; _rtB -> jkjusfctvb [ 2 ] = _rtX -> g1it3hbzj0 [ 2
-] - _rtB -> n0qqthcibl [ 2 ] ; } if ( ssIsSampleHit ( S , 1 , tid ) ) {
-ssCallAccelRunBlock ( S , 2 , 74 , SS_CALL_MDL_OUTPUTS ) ; } if (
-ssIsContinuousTask ( S , tid ) ) { _rtB -> a4ud5sphga = ( ( _rtP -> P_39 *
-_rtB -> hok0j3hzyy [ 0 ] - _rtB -> c3zmymnj3l [ 0 ] ) * _rtP -> P_40 - _rtX
--> lypsvf5tuh ) * _rtP -> P_42 ; _rtB -> eabzjxpk4r = ( ( _rtP -> P_36 * _rtB
--> hok0j3hzyy [ 0 ] - _rtB -> c3zmymnj3l [ 0 ] ) * _rtP -> P_37 + _rtX ->
-ituablqrnc ) + _rtB -> a4ud5sphga ; _rtB -> nmsl5lhmkk = ( ( _rtP -> P_46 *
-_rtB -> hok0j3hzyy [ 1 ] - _rtB -> c3zmymnj3l [ 1 ] ) * _rtP -> P_47 - _rtX
--> gkvrijmbgy ) * _rtP -> P_49 ; _rtB -> apvzubcyyo = ( ( _rtP -> P_43 * _rtB
--> hok0j3hzyy [ 1 ] - _rtB -> c3zmymnj3l [ 1 ] ) * _rtP -> P_44 + _rtX ->
-pa1uirjhny ) + _rtB -> nmsl5lhmkk ; _rtB -> njq2qr1dmi = ( ( _rtP -> P_53 *
-_rtB -> hok0j3hzyy [ 2 ] - _rtB -> c3zmymnj3l [ 2 ] ) * _rtP -> P_54 - _rtX
--> jgpqgj3dd4 ) * _rtP -> P_56 ; _rtB -> lub0mt0h4w = ( ( _rtP -> P_50 * _rtB
--> hok0j3hzyy [ 2 ] - _rtB -> c3zmymnj3l [ 2 ] ) * _rtP -> P_51 + _rtX ->
-jjukormc3p ) + _rtB -> njq2qr1dmi ; } if ( ssIsSampleHit ( S , 1 , tid ) ) {
-ssCallAccelRunBlock ( S , 2 , 108 , SS_CALL_MDL_OUTPUTS ) ;
-ssCallAccelRunBlock ( S , 2 , 109 , SS_CALL_MDL_OUTPUTS ) ; } if (
-ssIsSampleHit ( S , 2 , tid ) ) { memcpy ( & diznsy5jit [ 0 ] , & _rtP ->
-P_57 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if ( ssIsContinuousTask ( S , tid )
-&& ssIsSpecialSampleHit ( S , 2 , 0 , tid ) ) { _rtB -> b54dfnnkoo [ 0 ] =
-_rtB -> jkjusfctvb [ 0 ] ; _rtB -> b54dfnnkoo [ 1 ] = _rtB -> jkjusfctvb [ 1
-] ; _rtB -> b54dfnnkoo [ 2 ] = _rtB -> jkjusfctvb [ 2 ] ; } if (
-ssIsSampleHit ( S , 2 , tid ) ) { for ( i = 0 ; i < 3 ; i ++ ) { dmy3lnhtsw [
-i ] = diznsy5jit [ i + 6 ] * _rtB -> b54dfnnkoo [ 2 ] + ( diznsy5jit [ i + 3
-] * _rtB -> b54dfnnkoo [ 1 ] + diznsy5jit [ i ] * _rtB -> b54dfnnkoo [ 0 ] )
-; } _rtB -> atv4umvyhc [ 0 ] = _rtP -> P_58 * dmy3lnhtsw [ 0 ] ; _rtB ->
-atv4umvyhc [ 1 ] = _rtP -> P_58 * dmy3lnhtsw [ 1 ] ; _rtB -> atv4umvyhc [ 2 ]
-= _rtP -> P_58 * dmy3lnhtsw [ 2 ] ; } if ( ssIsSampleHit ( S , 1 , tid ) ) {
-if ( ssIsSpecialSampleHit ( S , 2 , 1 , tid ) ) { _rtB -> p5bhwepjga [ 0 ] =
-_rtDW -> nzkmy44stj [ 0 ] ; _rtB -> p5bhwepjga [ 1 ] = _rtDW -> nzkmy44stj [
-1 ] ; _rtB -> p5bhwepjga [ 2 ] = _rtDW -> nzkmy44stj [ 2 ] ; } if ( _rtB ->
-p5bhwepjga [ 0 ] > _rtP -> P_60 ) { _rtB -> lscax1obsj [ 0 ] = _rtP -> P_60 ;
-} else if ( _rtB -> p5bhwepjga [ 0 ] < _rtP -> P_61 ) { _rtB -> lscax1obsj [
-0 ] = _rtP -> P_61 ; } else { _rtB -> lscax1obsj [ 0 ] = _rtB -> p5bhwepjga [
-0 ] ; } if ( _rtB -> p5bhwepjga [ 1 ] > _rtP -> P_60 ) { _rtB -> lscax1obsj [
-1 ] = _rtP -> P_60 ; } else if ( _rtB -> p5bhwepjga [ 1 ] < _rtP -> P_61 ) {
-_rtB -> lscax1obsj [ 1 ] = _rtP -> P_61 ; } else { _rtB -> lscax1obsj [ 1 ] =
-_rtB -> p5bhwepjga [ 1 ] ; } if ( _rtB -> p5bhwepjga [ 2 ] > _rtP -> P_60 ) {
-_rtB -> lscax1obsj [ 2 ] = _rtP -> P_60 ; } else if ( _rtB -> p5bhwepjga [ 2
-] < _rtP -> P_61 ) { _rtB -> lscax1obsj [ 2 ] = _rtP -> P_61 ; } else { _rtB
--> lscax1obsj [ 2 ] = _rtB -> p5bhwepjga [ 2 ] ; } memcpy ( & _rtB ->
-nvfh2rwryr [ 0 ] , & _rtP -> P_62 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if (
-ssIsContinuousTask ( S , tid ) ) { ljqyvq454t [ 0 ] = _rtB -> eabzjxpk4r ;
-ljqyvq454t [ 1 ] = _rtB -> apvzubcyyo ; ljqyvq454t [ 2 ] = _rtB -> lub0mt0h4w
-; for ( i = 0 ; i < 3 ; i ++ ) { aejymufvap [ i ] = _rtB -> nvfh2rwryr [ i +
-6 ] * _rtB -> lub0mt0h4w + ( _rtB -> nvfh2rwryr [ i + 3 ] * _rtB ->
-apvzubcyyo + _rtB -> nvfh2rwryr [ i ] * _rtB -> eabzjxpk4r ) ; } for ( i = 0
-; i < 3 ; i ++ ) { _rtB -> cnbt5ikdq5 [ i ] = ( _rtB -> lscax1obsj [ i ] - (
+muDoubleScalarSin ( jq5l4n1lxp ) ; if ( gmesnt5dc1 > _rtP -> P_33 ) { _rtB ->
+hok0j3hzyy [ 0 ] = _rtP -> P_33 ; } else if ( gmesnt5dc1 < _rtP -> P_34 ) {
+_rtB -> hok0j3hzyy [ 0 ] = _rtP -> P_34 ; } else { _rtB -> hok0j3hzyy [ 0 ] =
+gmesnt5dc1 ; } if ( _rtB -> fjodtin3x5 > _rtP -> P_33 ) { _rtB -> hok0j3hzyy
+[ 1 ] = _rtP -> P_33 ; } else if ( _rtB -> fjodtin3x5 < _rtP -> P_34 ) { _rtB
+-> hok0j3hzyy [ 1 ] = _rtP -> P_34 ; } else { _rtB -> hok0j3hzyy [ 1 ] = _rtB
+-> fjodtin3x5 ; } if ( jq5l4n1lxp > _rtP -> P_33 ) { _rtB -> hok0j3hzyy [ 2 ]
+= _rtP -> P_33 ; } else if ( jq5l4n1lxp < _rtP -> P_34 ) { _rtB -> hok0j3hzyy
+[ 2 ] = _rtP -> P_34 ; } else { _rtB -> hok0j3hzyy [ 2 ] = jq5l4n1lxp ; } }
+if ( ssIsSampleHit ( S , 1 , tid ) ) { ssCallAccelRunBlock ( S , 2 , 65 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 66 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 67 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 68 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 69 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 70 ,
+SS_CALL_MDL_OUTPUTS ) ; } if ( ssIsContinuousTask ( S , tid ) ) { fegfldezgg
+[ 0 ] = _rtX -> g1it3hbzj0 [ 0 ] ; fegfldezgg [ 1 ] = _rtX -> g1it3hbzj0 [ 1
+] ; fegfldezgg [ 2 ] = _rtX -> g1it3hbzj0 [ 2 ] ; _rtB -> jkjusfctvb [ 0 ] =
+_rtX -> g1it3hbzj0 [ 0 ] - _rtB -> n0qqthcibl [ 0 ] ; _rtB -> jkjusfctvb [ 1
+] = _rtX -> g1it3hbzj0 [ 1 ] - _rtB -> n0qqthcibl [ 1 ] ; _rtB -> jkjusfctvb
+[ 2 ] = _rtX -> g1it3hbzj0 [ 2 ] - _rtB -> n0qqthcibl [ 2 ] ; } if (
+ssIsSampleHit ( S , 1 , tid ) ) { ssCallAccelRunBlock ( S , 2 , 74 ,
+SS_CALL_MDL_OUTPUTS ) ; } if ( ssIsContinuousTask ( S , tid ) ) { _rtB ->
+a4ud5sphga = ( ( _rtP -> P_39 * _rtB -> hok0j3hzyy [ 0 ] - _rtB -> c3zmymnj3l
+[ 0 ] ) * _rtP -> P_40 - _rtX -> lypsvf5tuh ) * _rtP -> P_42 ; _rtB ->
+eabzjxpk4r = ( ( _rtP -> P_36 * _rtB -> hok0j3hzyy [ 0 ] - _rtB -> c3zmymnj3l
+[ 0 ] ) * _rtP -> P_37 + _rtX -> ituablqrnc ) + _rtB -> a4ud5sphga ; _rtB ->
+nmsl5lhmkk = ( ( _rtP -> P_46 * _rtB -> hok0j3hzyy [ 1 ] - _rtB -> c3zmymnj3l
+[ 1 ] ) * _rtP -> P_47 - _rtX -> gkvrijmbgy ) * _rtP -> P_49 ; _rtB ->
+apvzubcyyo = ( ( _rtP -> P_43 * _rtB -> hok0j3hzyy [ 1 ] - _rtB -> c3zmymnj3l
+[ 1 ] ) * _rtP -> P_44 + _rtX -> pa1uirjhny ) + _rtB -> nmsl5lhmkk ; _rtB ->
+njq2qr1dmi = ( ( _rtP -> P_53 * _rtB -> hok0j3hzyy [ 2 ] - _rtB -> c3zmymnj3l
+[ 2 ] ) * _rtP -> P_54 - _rtX -> jgpqgj3dd4 ) * _rtP -> P_56 ; _rtB ->
+lub0mt0h4w = ( ( _rtP -> P_50 * _rtB -> hok0j3hzyy [ 2 ] - _rtB -> c3zmymnj3l
+[ 2 ] ) * _rtP -> P_51 + _rtX -> jjukormc3p ) + _rtB -> njq2qr1dmi ; } if (
+ssIsSampleHit ( S , 1 , tid ) ) { ssCallAccelRunBlock ( S , 2 , 108 ,
+SS_CALL_MDL_OUTPUTS ) ; ssCallAccelRunBlock ( S , 2 , 109 ,
+SS_CALL_MDL_OUTPUTS ) ; } if ( ssIsSampleHit ( S , 2 , tid ) ) { memcpy ( &
+diznsy5jit [ 0 ] , & _rtP -> P_57 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if (
+ssIsContinuousTask ( S , tid ) && ssIsSpecialSampleHit ( S , 2 , 0 , tid ) )
+{ _rtB -> b54dfnnkoo [ 0 ] = _rtB -> jkjusfctvb [ 0 ] ; _rtB -> b54dfnnkoo [
+1 ] = _rtB -> jkjusfctvb [ 1 ] ; _rtB -> b54dfnnkoo [ 2 ] = _rtB ->
+jkjusfctvb [ 2 ] ; } if ( ssIsSampleHit ( S , 2 , tid ) ) { for ( i = 0 ; i <
+3 ; i ++ ) { dmy3lnhtsw [ i ] = diznsy5jit [ i + 6 ] * _rtB -> b54dfnnkoo [ 2
+] + ( diznsy5jit [ i + 3 ] * _rtB -> b54dfnnkoo [ 1 ] + diznsy5jit [ i ] *
+_rtB -> b54dfnnkoo [ 0 ] ) ; } _rtB -> atv4umvyhc [ 0 ] = _rtP -> P_58 *
+dmy3lnhtsw [ 0 ] ; _rtB -> atv4umvyhc [ 1 ] = _rtP -> P_58 * dmy3lnhtsw [ 1 ]
+; _rtB -> atv4umvyhc [ 2 ] = _rtP -> P_58 * dmy3lnhtsw [ 2 ] ; } if (
+ssIsSampleHit ( S , 1 , tid ) ) { if ( ssIsSpecialSampleHit ( S , 2 , 1 , tid
+) ) { _rtB -> p5bhwepjga [ 0 ] = _rtDW -> nzkmy44stj [ 0 ] ; _rtB ->
+p5bhwepjga [ 1 ] = _rtDW -> nzkmy44stj [ 1 ] ; _rtB -> p5bhwepjga [ 2 ] =
+_rtDW -> nzkmy44stj [ 2 ] ; } if ( _rtB -> p5bhwepjga [ 0 ] > _rtP -> P_60 )
+{ _rtB -> lscax1obsj [ 0 ] = _rtP -> P_60 ; } else if ( _rtB -> p5bhwepjga [
+0 ] < _rtP -> P_61 ) { _rtB -> lscax1obsj [ 0 ] = _rtP -> P_61 ; } else {
+_rtB -> lscax1obsj [ 0 ] = _rtB -> p5bhwepjga [ 0 ] ; } if ( _rtB ->
+p5bhwepjga [ 1 ] > _rtP -> P_60 ) { _rtB -> lscax1obsj [ 1 ] = _rtP -> P_60 ;
+} else if ( _rtB -> p5bhwepjga [ 1 ] < _rtP -> P_61 ) { _rtB -> lscax1obsj [
+1 ] = _rtP -> P_61 ; } else { _rtB -> lscax1obsj [ 1 ] = _rtB -> p5bhwepjga [
+1 ] ; } if ( _rtB -> p5bhwepjga [ 2 ] > _rtP -> P_60 ) { _rtB -> lscax1obsj [
+2 ] = _rtP -> P_60 ; } else if ( _rtB -> p5bhwepjga [ 2 ] < _rtP -> P_61 ) {
+_rtB -> lscax1obsj [ 2 ] = _rtP -> P_61 ; } else { _rtB -> lscax1obsj [ 2 ] =
+_rtB -> p5bhwepjga [ 2 ] ; } memcpy ( & _rtB -> nvfh2rwryr [ 0 ] , & _rtP ->
+P_62 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if ( ssIsContinuousTask ( S , tid )
+) { ljqyvq454t [ 0 ] = _rtB -> eabzjxpk4r ; ljqyvq454t [ 1 ] = _rtB ->
+apvzubcyyo ; ljqyvq454t [ 2 ] = _rtB -> lub0mt0h4w ; for ( i = 0 ; i < 3 ; i
+++ ) { aejymufvap [ i ] = _rtB -> nvfh2rwryr [ i + 6 ] * _rtB -> lub0mt0h4w +
 ( _rtB -> nvfh2rwryr [ i + 3 ] * _rtB -> apvzubcyyo + _rtB -> nvfh2rwryr [ i
-] * _rtB -> eabzjxpk4r ) + _rtB -> nvfh2rwryr [ i + 6 ] * _rtB -> lub0mt0h4w
-) ) + gg2u4if1k1 [ i ] ; } _rtB -> hgett1hwvh = ( _rtB -> hok0j3hzyy [ 0 ] -
-_rtB -> c3zmymnj3l [ 0 ] ) * _rtP -> P_63 ; _rtB -> djlmhwhooq = ( _rtB ->
-hok0j3hzyy [ 1 ] - _rtB -> c3zmymnj3l [ 1 ] ) * _rtP -> P_64 ; _rtB ->
-jmv2so5wlt = ( _rtB -> hok0j3hzyy [ 2 ] - _rtB -> c3zmymnj3l [ 2 ] ) * _rtP
--> P_65 ; } if ( ssIsSampleHit ( S , 1 , tid ) ) { for ( i = 0 ; i < 9 ; i ++
-) { _rtB -> g231mw0l04 [ i ] = _rtP -> P_66 [ i ] ; _rtB -> cvfhod2fgy [ i ]
-= _rtP -> P_67 [ i ] ; } } if ( ssIsContinuousTask ( S , tid ) ) { for ( i =
-0 ; i < 3 ; i ++ ) { aejymufvap [ i ] = _rtB -> g231mw0l04 [ i + 6 ] *
-fegfldezgg [ 2 ] + ( _rtB -> g231mw0l04 [ i + 3 ] * fegfldezgg [ 1 ] + _rtB
--> g231mw0l04 [ i ] * fegfldezgg [ 0 ] ) ; } gg2u4if1k1 [ 0 ] += _rtB ->
-lscax1obsj [ 0 ] ; gg2u4if1k1 [ 1 ] += _rtB -> lscax1obsj [ 1 ] ; npg5zigbkh
-= gg2u4if1k1 [ 2 ] + _rtB -> lscax1obsj [ 2 ] ; for ( i = 0 ; i < 3 ; i ++ )
-{ ljqyvq454t [ i ] = _rtB -> cvfhod2fgy [ i + 6 ] * npg5zigbkh + ( _rtB ->
-cvfhod2fgy [ i + 3 ] * gg2u4if1k1 [ 1 ] + _rtB -> cvfhod2fgy [ i ] *
-gg2u4if1k1 [ 0 ] ) ; } for ( i = 0 ; i < 3 ; i ++ ) { tmp [ i ] = _rtB ->
-cvfhod2fgy [ i + 6 ] * npg5zigbkh + ( _rtB -> cvfhod2fgy [ i + 3 ] *
-gg2u4if1k1 [ 1 ] + _rtB -> cvfhod2fgy [ i ] * gg2u4if1k1 [ 0 ] ) ; } for ( i
-= 0 ; i < 3 ; i ++ ) { dmy3lnhtsw [ i ] = _rtB -> g231mw0l04 [ i + 6 ] *
-fegfldezgg [ 2 ] + ( _rtB -> g231mw0l04 [ i + 3 ] * fegfldezgg [ 1 ] + _rtB
--> g231mw0l04 [ i ] * fegfldezgg [ 0 ] ) ; } _rtB -> jpqlzrwcim [ 0 ] = tmp [
-0 ] + dmy3lnhtsw [ 0 ] ; _rtB -> jpqlzrwcim [ 1 ] = tmp [ 1 ] + dmy3lnhtsw [
-1 ] ; _rtB -> jpqlzrwcim [ 2 ] = tmp [ 2 ] + dmy3lnhtsw [ 2 ] ; nuudevirgz =
-erv0ccpdoz / muDoubleScalarCos ( gmesnt5dc1 ) ; if ( nuudevirgz > 1.0 ) {
-nuudevirgz = 1.0 ; } else { if ( nuudevirgz < - 1.0 ) { nuudevirgz = - 1.0 ;
-} } _rtB -> po3tmcjsnj = muDoubleScalarAsin ( nuudevirgz ) ; } if (
-ssIsSampleHit ( S , 1 , tid ) ) { ssCallAccelRunBlock ( S , 2 , 133 ,
-SS_CALL_MDL_OUTPUTS ) ; } if ( ssIsContinuousTask ( S , tid ) ) { cb55qal4hd
-= _rtP -> P_73 * _rtX -> djg03eirmm ; if ( ssGetTaskTime ( S , 0 ) < _rtP ->
-P_74 ) { _rtB -> dwmnl5btul = _rtP -> P_75 ; } else { _rtB -> dwmnl5btul =
-_rtP -> P_76 ; } if ( ( _rtDW -> nnejqocq0a >= ssGetT ( S ) ) && ( _rtDW ->
-prputol1xj >= ssGetT ( S ) ) ) { jq5l4n1lxp = 0.0 ; } else { nuudevirgz =
-_rtDW -> nnejqocq0a ; lastU = & _rtDW -> nnn0pbu5zk ; if ( _rtDW ->
-nnejqocq0a < _rtDW -> prputol1xj ) { if ( _rtDW -> prputol1xj < ssGetT ( S )
-) { nuudevirgz = _rtDW -> prputol1xj ; lastU = & _rtDW -> itm2s5h21f ; } }
-else { if ( _rtDW -> nnejqocq0a >= ssGetT ( S ) ) { nuudevirgz = _rtDW ->
-prputol1xj ; lastU = & _rtDW -> itm2s5h21f ; } } jq5l4n1lxp = ( _rtB ->
-dwmnl5btul - * lastU ) / ( ssGetT ( S ) - nuudevirgz ) ; } if ( jq5l4n1lxp >
-_rtP -> P_77 ) { jq5l4n1lxp = _rtP -> P_77 ; } else { if ( jq5l4n1lxp < _rtP
--> P_78 ) { jq5l4n1lxp = _rtP -> P_78 ; } } b2veiq1ijv_idx_0 = ( _rtP -> P_69
-* _rtX -> hzmj4zwexc + _rtB -> nxcx0t5nhe [ 0 ] ) + jq5l4n1lxp ;
-b2veiq1ijv_idx_1 = ( _rtP -> P_71 * _rtX -> gdwfbh1eyy + _rtB -> nxcx0t5nhe [
-1 ] ) + 0.0 ; b2veiq1ijv_idx_2 = ( _rtB -> nxcx0t5nhe [ 2 ] + cb55qal4hd ) +
-jq5l4n1lxp ; b2veiq1ijv_idx_3 = ( _rtB -> nxcx0t5nhe [ 3 ] + cb55qal4hd ) +
-0.0 ; } if ( ssIsSampleHit ( S , 1 , tid ) ) { adoq34mqbb = _rtP -> P_82 *
-_rtDW -> m23rkpyrxj ; iz2k5ya5ta = _rtP -> P_86 * _rtDW -> kb4sbkwk2c ;
-inyi50y04a = _rtP -> P_90 * _rtDW -> hrcvjke4js ; memcpy ( & _rtB ->
-nmgcamzool [ 0 ] , & _rtP -> P_91 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if (
+] * _rtB -> eabzjxpk4r ) ; } for ( i = 0 ; i < 3 ; i ++ ) { _rtB ->
+cnbt5ikdq5 [ i ] = ( _rtB -> lscax1obsj [ i ] - ( ( _rtB -> nvfh2rwryr [ i +
+3 ] * _rtB -> apvzubcyyo + _rtB -> nvfh2rwryr [ i ] * _rtB -> eabzjxpk4r ) +
+_rtB -> nvfh2rwryr [ i + 6 ] * _rtB -> lub0mt0h4w ) ) + gg2u4if1k1 [ i ] ; }
+_rtB -> hgett1hwvh = ( _rtB -> hok0j3hzyy [ 0 ] - _rtB -> c3zmymnj3l [ 0 ] )
+* _rtP -> P_63 ; _rtB -> djlmhwhooq = ( _rtB -> hok0j3hzyy [ 1 ] - _rtB ->
+c3zmymnj3l [ 1 ] ) * _rtP -> P_64 ; _rtB -> jmv2so5wlt = ( _rtB -> hok0j3hzyy
+[ 2 ] - _rtB -> c3zmymnj3l [ 2 ] ) * _rtP -> P_65 ; } if ( ssIsSampleHit ( S
+, 1 , tid ) ) { for ( i = 0 ; i < 9 ; i ++ ) { _rtB -> g231mw0l04 [ i ] =
+_rtP -> P_66 [ i ] ; _rtB -> cvfhod2fgy [ i ] = _rtP -> P_67 [ i ] ; } } if (
 ssIsContinuousTask ( S , tid ) ) { for ( i = 0 ; i < 3 ; i ++ ) { aejymufvap
-[ i ] = _rtB -> nmgcamzool [ i + 6 ] * _rtB -> n0qqthcibl [ 2 ] + ( _rtB ->
-nmgcamzool [ i + 3 ] * _rtB -> n0qqthcibl [ 1 ] + _rtB -> nmgcamzool [ i ] *
-_rtB -> n0qqthcibl [ 0 ] ) ; } for ( i = 0 ; i < 3 ; i ++ ) { tmp [ i ] =
-_rtB -> nmgcamzool [ i + 6 ] * _rtB -> n0qqthcibl [ 2 ] + ( _rtB ->
-nmgcamzool [ i + 3 ] * _rtB -> n0qqthcibl [ 1 ] + _rtB -> nmgcamzool [ i ] *
-_rtB -> n0qqthcibl [ 0 ] ) ; } jq5l4n1lxp = _rtB -> n0qqthcibl [ 0 ] * tmp [
-2 ] ; npg5zigbkh = aejymufvap [ 0 ] ; cb55qal4hd = aejymufvap [ 1 ] ;
-nuudevirgz = aejymufvap [ 0 ] ; aejymufvap [ 0 ] = _rtB -> n0qqthcibl [ 1 ] *
-aejymufvap [ 2 ] - _rtB -> n0qqthcibl [ 2 ] * aejymufvap [ 1 ] ; aejymufvap [
-0 ] = _rtP -> P_92 * b2veiq1ijv_idx_1 - aejymufvap [ 0 ] ; aejymufvap [ 1 ] =
-_rtP -> P_93 * b2veiq1ijv_idx_2 - ( _rtB -> n0qqthcibl [ 2 ] * npg5zigbkh -
-jq5l4n1lxp ) ; aejymufvap [ 2 ] = b2veiq1ijv_idx_3 - ( _rtB -> n0qqthcibl [ 0
-] * cb55qal4hd - _rtB -> n0qqthcibl [ 1 ] * nuudevirgz ) ; } if (
-ssIsSampleHit ( S , 1 , tid ) ) { memcpy ( & _rtB -> odclhoxjro [ 0 ] , &
-_rtP -> P_94 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if ( ssIsContinuousTask ( S
-, tid ) ) { for ( i = 0 ; i < 3 ; i ++ ) { ljqyvq454t [ i ] = _rtB ->
+[ i ] = _rtB -> g231mw0l04 [ i + 6 ] * fegfldezgg [ 2 ] + ( _rtB ->
+g231mw0l04 [ i + 3 ] * fegfldezgg [ 1 ] + _rtB -> g231mw0l04 [ i ] *
+fegfldezgg [ 0 ] ) ; } gg2u4if1k1 [ 0 ] += _rtB -> lscax1obsj [ 0 ] ;
+gg2u4if1k1 [ 1 ] += _rtB -> lscax1obsj [ 1 ] ; npg5zigbkh = gg2u4if1k1 [ 2 ]
++ _rtB -> lscax1obsj [ 2 ] ; for ( i = 0 ; i < 3 ; i ++ ) { ljqyvq454t [ i ]
+= _rtB -> cvfhod2fgy [ i + 6 ] * npg5zigbkh + ( _rtB -> cvfhod2fgy [ i + 3 ]
+* gg2u4if1k1 [ 1 ] + _rtB -> cvfhod2fgy [ i ] * gg2u4if1k1 [ 0 ] ) ; } for (
+i = 0 ; i < 3 ; i ++ ) { tmp [ i ] = _rtB -> cvfhod2fgy [ i + 6 ] *
+npg5zigbkh + ( _rtB -> cvfhod2fgy [ i + 3 ] * gg2u4if1k1 [ 1 ] + _rtB ->
+cvfhod2fgy [ i ] * gg2u4if1k1 [ 0 ] ) ; } for ( i = 0 ; i < 3 ; i ++ ) {
+dmy3lnhtsw [ i ] = _rtB -> g231mw0l04 [ i + 6 ] * fegfldezgg [ 2 ] + ( _rtB
+-> g231mw0l04 [ i + 3 ] * fegfldezgg [ 1 ] + _rtB -> g231mw0l04 [ i ] *
+fegfldezgg [ 0 ] ) ; } _rtB -> jpqlzrwcim [ 0 ] = tmp [ 0 ] + dmy3lnhtsw [ 0
+] ; _rtB -> jpqlzrwcim [ 1 ] = tmp [ 1 ] + dmy3lnhtsw [ 1 ] ; _rtB ->
+jpqlzrwcim [ 2 ] = tmp [ 2 ] + dmy3lnhtsw [ 2 ] ; nuudevirgz = erv0ccpdoz /
+muDoubleScalarCos ( gmesnt5dc1 ) ; if ( nuudevirgz > 1.0 ) { nuudevirgz = 1.0
+; } else { if ( nuudevirgz < - 1.0 ) { nuudevirgz = - 1.0 ; } } _rtB ->
+po3tmcjsnj = muDoubleScalarAsin ( nuudevirgz ) ; } if ( ssIsSampleHit ( S , 1
+, tid ) ) { ssCallAccelRunBlock ( S , 2 , 133 , SS_CALL_MDL_OUTPUTS ) ; } if
+( ssIsContinuousTask ( S , tid ) ) { cb55qal4hd = _rtP -> P_73 * _rtX ->
+djg03eirmm ; if ( ssGetTaskTime ( S , 0 ) < _rtP -> P_74 ) { _rtB ->
+dwmnl5btul = _rtP -> P_75 ; } else { _rtB -> dwmnl5btul = _rtP -> P_76 ; } if
+( ( _rtDW -> nnejqocq0a >= ssGetT ( S ) ) && ( _rtDW -> prputol1xj >= ssGetT
+( S ) ) ) { jq5l4n1lxp = 0.0 ; } else { nuudevirgz = _rtDW -> nnejqocq0a ;
+lastU = & _rtDW -> nnn0pbu5zk ; if ( _rtDW -> nnejqocq0a < _rtDW ->
+prputol1xj ) { if ( _rtDW -> prputol1xj < ssGetT ( S ) ) { nuudevirgz = _rtDW
+-> prputol1xj ; lastU = & _rtDW -> itm2s5h21f ; } } else { if ( _rtDW ->
+nnejqocq0a >= ssGetT ( S ) ) { nuudevirgz = _rtDW -> prputol1xj ; lastU = &
+_rtDW -> itm2s5h21f ; } } jq5l4n1lxp = ( _rtB -> dwmnl5btul - * lastU ) / (
+ssGetT ( S ) - nuudevirgz ) ; } if ( jq5l4n1lxp > _rtP -> P_77 ) { jq5l4n1lxp
+= _rtP -> P_77 ; } else { if ( jq5l4n1lxp < _rtP -> P_78 ) { jq5l4n1lxp =
+_rtP -> P_78 ; } } b2veiq1ijv_idx_0 = ( _rtP -> P_69 * _rtX -> hzmj4zwexc +
+_rtB -> nxcx0t5nhe [ 0 ] ) + jq5l4n1lxp ; b2veiq1ijv_idx_1 = ( _rtP -> P_71 *
+_rtX -> gdwfbh1eyy + _rtB -> nxcx0t5nhe [ 1 ] ) + 0.0 ; b2veiq1ijv_idx_2 = (
+_rtB -> nxcx0t5nhe [ 2 ] + cb55qal4hd ) + jq5l4n1lxp ; b2veiq1ijv_idx_3 = (
+_rtB -> nxcx0t5nhe [ 3 ] + cb55qal4hd ) + 0.0 ; } if ( ssIsSampleHit ( S , 1
+, tid ) ) { adoq34mqbb = _rtP -> P_82 * _rtDW -> m23rkpyrxj ; iz2k5ya5ta =
+_rtP -> P_86 * _rtDW -> kb4sbkwk2c ; inyi50y04a = _rtP -> P_90 * _rtDW ->
+hrcvjke4js ; memcpy ( & _rtB -> nmgcamzool [ 0 ] , & _rtP -> P_91 [ 0 ] , 9U
+* sizeof ( real_T ) ) ; } if ( ssIsContinuousTask ( S , tid ) ) { for ( i = 0
+; i < 3 ; i ++ ) { aejymufvap [ i ] = _rtB -> nmgcamzool [ i + 6 ] * _rtB ->
+n0qqthcibl [ 2 ] + ( _rtB -> nmgcamzool [ i + 3 ] * _rtB -> n0qqthcibl [ 1 ]
++ _rtB -> nmgcamzool [ i ] * _rtB -> n0qqthcibl [ 0 ] ) ; } for ( i = 0 ; i <
+3 ; i ++ ) { tmp [ i ] = _rtB -> nmgcamzool [ i + 6 ] * _rtB -> n0qqthcibl [
+2 ] + ( _rtB -> nmgcamzool [ i + 3 ] * _rtB -> n0qqthcibl [ 1 ] + _rtB ->
+nmgcamzool [ i ] * _rtB -> n0qqthcibl [ 0 ] ) ; } jq5l4n1lxp = _rtB ->
+n0qqthcibl [ 0 ] * tmp [ 2 ] ; npg5zigbkh = aejymufvap [ 0 ] ; cb55qal4hd =
+aejymufvap [ 1 ] ; nuudevirgz = aejymufvap [ 0 ] ; aejymufvap [ 0 ] = _rtB ->
+n0qqthcibl [ 1 ] * aejymufvap [ 2 ] - _rtB -> n0qqthcibl [ 2 ] * aejymufvap [
+1 ] ; aejymufvap [ 0 ] = _rtP -> P_92 * b2veiq1ijv_idx_1 - aejymufvap [ 0 ] ;
+aejymufvap [ 1 ] = _rtP -> P_93 * b2veiq1ijv_idx_2 - ( _rtB -> n0qqthcibl [ 2
+] * npg5zigbkh - jq5l4n1lxp ) ; aejymufvap [ 2 ] = b2veiq1ijv_idx_3 - ( _rtB
+-> n0qqthcibl [ 0 ] * cb55qal4hd - _rtB -> n0qqthcibl [ 1 ] * nuudevirgz ) ;
+} if ( ssIsSampleHit ( S , 1 , tid ) ) { memcpy ( & _rtB -> odclhoxjro [ 0 ]
+, & _rtP -> P_94 [ 0 ] , 9U * sizeof ( real_T ) ) ; } if ( ssIsContinuousTask
+( S , tid ) ) { for ( i = 0 ; i < 3 ; i ++ ) { ljqyvq454t [ i ] = _rtB ->
 odclhoxjro [ i + 6 ] * aejymufvap [ 2 ] + ( _rtB -> odclhoxjro [ i + 3 ] *
 aejymufvap [ 1 ] + _rtB -> odclhoxjro [ i ] * aejymufvap [ 0 ] ) ; } } if (
 ssIsSampleHit ( S , 1 , tid ) ) { _rtB -> ego0iu3ksj [ 0 ] = _rtP -> P_95 [ 0
@@ -491,9 +490,9 @@ gdwfbh1eyy = 0.0 ; _rtXdot -> gdwfbh1eyy += _rtP -> P_70 * _rtX -> gdwfbh1eyy
 ; _rtXdot -> gdwfbh1eyy += _rtB -> jycqszl3zk ; _rtXdot -> djg03eirmm = 0.0 ;
 _rtXdot -> djg03eirmm += _rtP -> P_72 * _rtX -> djg03eirmm ; _rtXdot ->
 djg03eirmm += _rtB -> l5y5ceeztf ; } static void mdlInitializeSizes (
-SimStruct * S ) { ssSetChecksumVal ( S , 0 , 3285572165U ) ; ssSetChecksumVal
-( S , 1 , 3245401241U ) ; ssSetChecksumVal ( S , 2 , 612486050U ) ;
-ssSetChecksumVal ( S , 3 , 191872713U ) ; { mxArray * slVerStructMat = NULL ;
+SimStruct * S ) { ssSetChecksumVal ( S , 0 , 1803018131U ) ; ssSetChecksumVal
+( S , 1 , 3199367205U ) ; ssSetChecksumVal ( S , 2 , 1798073909U ) ;
+ssSetChecksumVal ( S , 3 , 284109315U ) ; { mxArray * slVerStructMat = NULL ;
 mxArray * slStrMat = mxCreateString ( "simulink" ) ; char slVerChar [ 10 ] ;
 int status = mexCallMATLAB ( 1 , & slVerStructMat , 1 , & slStrMat , "ver" )
 ; if ( status == 0 ) { mxArray * slVerMat = mxGetField ( slVerStructMat , 0 ,
