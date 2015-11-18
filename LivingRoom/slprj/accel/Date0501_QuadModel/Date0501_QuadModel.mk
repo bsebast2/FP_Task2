@@ -77,7 +77,7 @@ MAKEFILE           = Date0501_QuadModel.mk
 MATLAB_ROOT        = C:/Program Files/MATLAB/R2015a
 ALT_MATLAB_ROOT    = C:/PROGRA~1/MATLAB/R2015a
 MASTER_ANCHOR_DIR  = 
-START_DIR          = C:/ThiagoVR/FocalPointTask2/LivingRoom
+START_DIR          = C:/Users/bsebast2/Documents/FocalPointTask2_Copy_Bentic/LivingRoom
 MATLAB_BIN         = C:/Program Files/MATLAB/R2015a/bin
 ALT_MATLAB_BIN     = C:/PROGRA~1/MATLAB/R2015a/bin
 S_FUNCTIONS        = any2byte.c saeroclockpacer.c
@@ -85,7 +85,7 @@ S_FUNCTIONS_LIB    =
 SOLVER             = 
 NUMST              = 3
 TID01EQ            = 1
-NCSTATES           = 27
+NCSTATES           = 28
 MEM_ALLOC          = RT_STATIC
 BUILDARGS          =  ISPROTECTINGMODEL=NOTPROTECTING
 MEXEXT             = mexw64
