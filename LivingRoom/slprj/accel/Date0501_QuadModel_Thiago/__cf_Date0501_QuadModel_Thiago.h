@@ -1,0 +1,3 @@
+#ifndef CF_Date0501_QuadModel_Thiago_H__
+#define CF_Date0501_QuadModel_Thiago_H__
+#endif
